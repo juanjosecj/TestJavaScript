@@ -41,3 +41,8 @@ test('la función suma 5 + 10 debe dar 5', () => {
 });
 ```
 
+## ejecutar jest
+Para ejecutar la prueba, abre un terminal y navega hhasta el directorio donde está tu archivo de prueba y ejecute:
+```
+>npm test
+```
