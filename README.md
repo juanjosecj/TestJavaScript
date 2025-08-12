@@ -16,6 +16,9 @@ cd TESTJAVASCRIPT
 | npm init -y                  | Crea el paquete .json                       |
 | npm install jest             | Instala la libreria para la prueba          |
 
+## Importante
+Antes de inicializar la prueba se tiene que hacer un cambio en el archivo **package.json**, se tiene que indicar en **Scripts** la linea que dice **test**, al frente de esta se tiene que escribir **jest**. Ya que no esta indica. De lo contrario la prueba no funcionara
+
 ## Crear un archivo para probar
 ### example.js
 ```
